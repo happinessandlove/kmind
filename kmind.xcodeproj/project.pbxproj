@@ -14,6 +14,7 @@
 		3F969CFB29EAA2CB00B4CFA1 /* kmindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F969CFA29EAA2CB00B4CFA1 /* kmindTests.swift */; };
 		3F969D0529EAA2CB00B4CFA1 /* kmindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F969D0429EAA2CB00B4CFA1 /* kmindUITests.swift */; };
 		3F969D0729EAA2CB00B4CFA1 /* kmindUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F969D0629EAA2CB00B4CFA1 /* kmindUITestsLaunchTests.swift */; };
+		3F969D1429EAA5CA00B4CFA1 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F969D1329EAA5CA00B4CFA1 /* Device.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3F969D0029EAA2CB00B4CFA1 /* kmindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kmindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F969D0429EAA2CB00B4CFA1 /* kmindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kmindUITests.swift; sourceTree = "<group>"; };
 		3F969D0629EAA2CB00B4CFA1 /* kmindUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kmindUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F969D1329EAA5CA00B4CFA1 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				3F969CEC29EAA2CB00B4CFA1 /* Assets.xcassets */,
 				3F969CEE29EAA2CB00B4CFA1 /* kmind.entitlements */,
 				3F969CEF29EAA2CB00B4CFA1 /* Preview Content */,
+				3F969D1329EAA5CA00B4CFA1 /* Device.swift */,
 			);
 			path = kmind;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F969D1429EAA5CA00B4CFA1 /* Device.swift in Sources */,
 				3F969CEB29EAA2C700B4CFA1 /* ContentView.swift in Sources */,
 				3F969CE929EAA2C700B4CFA1 /* kmindApp.swift in Sources */,
 			);
@@ -415,6 +419,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"kmind/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Z87BB53D8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -451,6 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"kmind/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Z87BB53D8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
